@@ -124,7 +124,6 @@ GEM
       faraday
       multi_json
     erubis (2.7.0)
-    excon (0.62.0)
     execjs (2.7.0)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
@@ -136,28 +135,6 @@ GEM
     faraday (0.12.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.25)
-    fog (1.23.0)
-      fog-brightbox
-      fog-core (~> 1.23)
-      fog-json
-      fog-softlayer
-      ipaddress (~> 0.5)
-      nokogiri (~> 1.5, >= 1.5.11)
-    fog-brightbox (0.15.0)
-      fog-core (~> 1.22)
-      fog-json
-      inflecto (~> 0.0.2)
-      mime-types
-    fog-core (1.45.0)
-      builder
-      excon (~> 0.58)
-      formatador (~> 0.2)
-    fog-json (1.2.0)
-      fog-core
-      multi_json (~> 1.10)
-    fog-softlayer (1.1.4)
-      fog-core
-      fog-json
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
     formatador (0.2.5)
@@ -184,8 +161,6 @@ GEM
       domain_name (~> 0.5)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    inflecto (0.0.2)
-    ipaddress (0.8.3)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -454,7 +429,6 @@ DEPENDENCIES
   elasticsearch-rails (~> 0.1.8)
   factory_girl_rails (~> 4.5.0)
   faker (~> 1.6.1)
-  fog (= 1.23.0)
   font-awesome-sass (~> 4.5)
   friendly_id (~> 5.1)
   guard-rspec
