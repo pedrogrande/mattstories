@@ -3,7 +3,7 @@ ruby "2.3.3"
 
 gem 'rails', '4.2.6'
 gem 'puma', '~> 2.15'
-gem 'pg'
+gem 'pg', '~> 0.15'
 
 # Auth
 gem 'devise', '~> 3.5.3'
